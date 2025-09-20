@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Holy Smokes Apparel • Christ‑Centered Tees from Idaho</title>
+    <meta name="description" content="Holy Smokes Apparel creates Christ‑centered, funny, and endearing designs. Born in Idaho. Shop tees, hoodies, and gifts." />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Holy Smokes Apparel" />
+    <meta property="og:description" content="Christ‑centered, funny, and endearing designs. Born in Idaho." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-image.jpg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+              serif: ['Playfair Display', 'ui-serif', 'Georgia', 'serif'],
+            },
+            colors: {
+              brand: {
+                light: '#f1f5f9',
+                base: '#94a3b8',
+                dark: '#334155'
+              },
+              faith: {
+                light: '#fef9c3',
+                base: '#fde047',
+                dark: '#ca8a04'
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html { scroll-behavior: smooth; }
+    </style>
+  </head>
+  <body class="bg-gradient-to-b from-brand-light via-white to-faith-light text-slate-900 antialiased">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-slate-200">
+      <div class="mx-auto max-w-6xl px-4">
+        <div class="h-16 flex items-center justify-between gap-4">
+          <a href="#home" class="flex items-center gap-2">
+            <span class="font-serif text-xl text-faith-dark">Holy Smokes Apparel</span>
+          </a>
+          <nav class="hidden md:flex items-center gap-6 text-sm">
+            <a href="#shop" class="hover:text-faith-dark">Shop</a>
+            <a href="#story" class="hover:text-faith-dark">Our Story</a>
+            <a href="#values" class="hover:text-faith-dark">Faith</a>
+            <a href="#idaho" class="hover:text-faith-dark">Idaho</a>
+            <a href="#contact" class="hover:text-faith-dark">Contact</a>
+            <a href="#newsletter" class="inline-flex items-center rounded-full border border-faith-base px-3 py-1.5 bg-faith-base text-slate-900 font-semibold hover:bg-faith-dark hover:text-white">Get Updates</a>
+          </nav>
+          <button id="menuBtn" class="md:hidden inline-flex items-center justify-center w-9 h-9 rounded-lg border border-slate-300 hover:bg-slate-50" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+        <div id="mobileNav" class="md:hidden hidden pb-3">
+          <nav class="grid gap-1 text-sm">
+            <a href="#shop" class="px-2 py-2 rounded-md hover:bg-slate-50">Shop</a>
+            <a href="#story" class="px-2 py-2 rounded-md hover:bg-slate-50">Our Story</a>
+            <a href="#values" class="px-2 py-2 rounded-md hover:bg-slate-50">Faith</a>
+            <a href="#idaho" class="px-2 py-2 rounded-md hover:bg-slate-50">Idaho</a>
+            <a href="#contact" class="px-2 py-2 rounded-md hover:bg-slate-50">Contact</a>
+            <a href="#newsletter" class="px-2 py-2 rounded-md bg-faith-base text-slate-900">Get Updates</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="home">
+      <!-- Hero -->
+      <section class="mx-auto max-w-6xl px-4 pt-20 pb-20 text-center">
+        <h1 class="font-serif text-5xl sm:text-6xl text-brand-dark">Clothed in Faith</h1>
+        <p class="mt-4 max-w-2xl mx-auto text-slate-700">Peaceful, Christ‑centered apparel designed to inspire and uplift. From Idaho with love.</p>
+        <div class="mt-8 flex flex-wrap justify-center gap-3">
+          <a href="#shop" class="px-6 py-3 rounded-full bg-faith-base text-slate-900 font-semibold hover:bg-faith-dark hover:text-white">Shop Now</a>
+          <a href="#story" class="px-6 py-3 rounded-full border border-slate-300 hover:bg-slate-50">Our Story</a>
+        </div>
+      </section>
+
+      <!-- Scripture Highlight -->
+      <section class="bg-faith-light/70 py-14">
+        <div class="mx-auto max-w-3xl px-4 text-center">
+          <blockquote class="font-serif text-2xl text-brand-dark italic">“Let your light shine before others.”</blockquote>
+          <p class="mt-2 text-slate-600">Matthew 5:16</p>
+        </div>
+      </section>
+
+      <!-- Products -->
+      <section id="shop" class="mx-auto max-w-6xl px-4 py-16">
+        <h2 class="font-serif text-3xl text-center text-slate-900">Featured Products</h2>
+        <div class="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <article class="rounded-2xl bg-white border border-slate-200 shadow-md overflow-hidden">
+            <div class="aspect-[4/3] bg-brand-light grid place-items-center text-slate-400">Image</div>
+            <div class="p-4">
+              <h3 class="font-medium">Table Flipper Tee</h3>
+              <p class="text-sm text-slate-600 mt-1">Courageous faith, clean design.</p>
+              <div class="mt-3 flex items-center justify-between">
+                <span class="font-semibold">$28</span>
+                <a href="#" class="text-faith-dark underline">Add to cart</a>
+              </div>
+            </div>
+          </article>
+          <article class="rounded-2xl bg-white border border-slate-200 shadow-md overflow-hidden">
+            <div class="aspect-[4/3] bg-brand-light grid place-items-center text-slate-400">Image</div>
+            <div class="p-4">
+              <h3 class="font-medium">Christ Is King Hoodie</h3>
+              <p class="text-sm text-slate-600 mt-1">Warm, simple, centered on Him.</p>
+              <div class="mt-3 flex items-center justify-between">
+                <span class="font-semibold">$48</span>
+                <a href="#" class="text-faith-dark underline">Add to cart</a>
+              </div>
+            </div>
+          </article>
+          <article class="rounded-2xl bg-white border border-slate-200 shadow-md overflow-hidden">
+            <div class="aspect-[4/3] bg-brand-light grid place-items-center text-slate-400">Image</div>
+            <div class="p-4">
+              <h3 class="font-medium">Grace & Giggles Cap</h3>
+              <p class="text-sm text-slate-600 mt-1">Casual joy, everyday witness.</p>
+              <div class="mt-3 flex items-center justify-between">
+                <span class="font-semibold">$24</span>
+                <a href="#" class="text-faith-dark underline">Add to cart</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Story -->
+      <section id="story" class="bg-brand-light/60 py-20">
+        <div class="mx-auto max-w-5xl px-4 text-center">
+          <h2 class="font-serif text-3xl text-slate-900">Our Story</h2>
+          <p class="mt-4 max-w-2xl mx-auto text-slate-700">Holy Smokes Apparel started in Idaho with one mission: bring peaceful, Christ‑centered design to the everyday wardrobe. Each piece is crafted with prayer, purpose, and a little humor.</p>
+        </div>
+      </section>
+
+      <!-- Values -->
+      <section id="values" class="mx-auto max-w-6xl px-4 py-20">
+        <h2 class="font-serif text-3xl text-center text-slate-900">Our Values</h2>
+        <div class="mt-10 grid sm:grid-cols-3 gap-8 text-center">
+          <div>
+            <h3 class="font-semibold text-faith-dark">Christ First</h3>
+            <p class="mt-2 text-slate-600 text-sm">Every design lifts up Jesus above all.</p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-faith-dark">Peaceful Witness</h3>
+            <p class="mt-2 text-slate-600 text-sm">Apparel that reflects calm confidence in faith.</p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-faith-dark">Joyful Living</h3>
+            <p class="mt-2 text-slate-600 text-sm">We believe humor, grace, and style can coexist.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Idaho -->
+      <section id="idaho" class="bg-faith-light/50 py-20">
+        <div class="mx-auto max-w-4xl px-4 text-center">
+          <h2 class="font-serif text-3xl text-slate-900">Rooted in Idaho</h2>
+          <p class="mt-4 text-slate-700">Our home shapes our craft. From Nampa to the mountains, Idaho inspires our simplicity and strength. We are proud to shine Christ’s light from here.</p>
+        </div>
+      </section>
+
+      <!-- Newsletter -->
+      <section id="newsletter" class="mx-auto max-w-3xl px-4 py-20 text-center">
+        <h2 class="font-serif text-3xl text-slate-900">Stay Connected</h2>
+        <p class="mt-2 text-slate-700">Get first dibs on launches, restocks, and local pop‑ups.</p>
+        <form class="mt-6 flex flex-col sm:flex-row gap-3 justify-center" action="mailto:hello@holysmokesapparel.com" method="post" enctype="text/plain">
+          <input required aria-label="Email address" type="email" name="email" placeholder="you@example.com" class="w-full sm:w-72 px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-faith-dark" />
+          <button class="px-6 py-2.5 rounded-lg bg-faith-base text-slate-900 font-semibold hover:bg-faith-dark hover:text-white" type="submit">Notify me</button>
+        </form>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="bg-brand-light/70 py-20">
+        <div class="mx-auto max-w-4xl px-4 text-center">
+          <h2 class="font-serif text-3xl text-slate-900">Contact</h2>
+          <p class="mt-4 text-slate-700">Wholesale, custom orders, or questions—we’d love to connect.</p>
+          <p class="mt-6 text-faith-dark font-semibold">hello@holysmokesapparel.com</p>
+          <p class="text-slate-600">Nampa, Idaho</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-200 bg-white/80">
+      <div class="mx-auto max-w-6xl px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p class="text-sm text-slate-500">© <span id="year"></span> Holy Smokes Apparel — Christ centered from Idaho.</p>
+        <div class="flex gap-4 text-sm text-slate-600">
+          <a href="#shop" class="hover:text-faith-dark">Shop</a>
+          <a href="#story" class="hover:text-faith-dark">Our Story</a>
+          <a href="#values" class="hover:text-faith-dark">Faith</a>
+          <a href="#contact" class="hover:text-faith-dark">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const btn = document.getElementById('menuBtn');
+      const mobile = document.getElementById('mobileNav');
+      btn?.addEventListener('click', () => {
+        mobile.classList.toggle('hidden');
+        btn.setAttribute('aria-expanded', String(!mobile.classList.contains('hidden')));
+      });
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
